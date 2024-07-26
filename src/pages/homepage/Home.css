@@ -13,7 +13,7 @@
     display: flex;
     align-items: end;
     justify-content: start;
-    background-image: url(/src/assets/lamb-chops-8824495_640.jpg);
+    background-image: url(assets/lamb-chops-8824495_640.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,7 +34,7 @@
     position: relative;
     background-color: black;
     color: #fff;
-    background-image: url(/src/assets/healthy-7213383_1280.jpg);
+    background-image: url(assets/healthy-7213383_1280.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,7 +58,7 @@
     position: relative;
 }
 .avatar1{
-    background-image: url(/src/assets/ai-generated-8083323_640.jpg);
+    background-image: url(assets/ai-generated-8083323_640.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -112,7 +112,7 @@
     width: 50%;
     height: 100%;
     position: absolute;
-    background-image: url(/src/assets/ai-generated-8673813_640.png);
+    background-image: url(assets/ai-generated-8673813_640.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -160,25 +160,25 @@
     background-color:#030112 ;
 }
 .pizza{
-    background-image: url(/src/assets/pizza-3203417_640.jpg);
+    background-image: url(assets/pizza-3203417_640.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .burgar{
-    background-image: url(/src/assets/burger-7419420_640.jpg);
+    background-image: url(assets/burger-7419420_640.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .chicken{
-    background-image: url(/src/assets/fried-chicken-6550521_640.jpg);
+    background-image: url(assets/fried-chicken-6550521_640.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .fried_rice{
-    background-image: url(/src/assets/fried-rice-6297406_640.jpg);
+    background-image: url(assets/fried-rice-6297406_640.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -230,7 +230,7 @@
     left: 3%;
     border-radius: 20px;
     z-index: 5;
-    background-image: url(/src/assets/ai-generated-8215780_640.jpg);
+    background-image: url(assets/ai-generated-8215780_640.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -262,7 +262,7 @@
     left: 25%;
     border-radius:20px ;
     z-index: 3;
-    background-image: url(/src/assets/food-8114889_640.jpg);
+    background-image: url(assets/food-8114889_640.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -291,7 +291,7 @@
     top: 50%;
     left: 47%;
     border-radius: 20px;
-    background-image: url(/src/assets/salad-1095649_640.jpg);
+    background-image: url(assets/salad-1095649_640.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -328,7 +328,7 @@
     border-radius: 20px;
     box-shadow: 0 0 30px rgb(0, 0, 0, .2);
     margin-bottom: 45px;
-    background-image: url(/src/assets/salad-1095649_640.jpg);
+    background-image: url(assets/salad-1095649_640.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -364,7 +364,7 @@
     display: flex;
     align-items: end;
     justify-content: start;
-    background-image: url(/src/assets/mom-7063095_640.jpg);
+    background-image: url(assets/mom-7063095_640.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -386,7 +386,7 @@
     color: #fff;
     }
     .avatar1{
-        background-image: url(/src/assets/ai-generated-8083323_640.jpg);
+        background-image: url(assets/ai-generated-8083323_640.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;

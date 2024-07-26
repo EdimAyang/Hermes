@@ -3,8 +3,6 @@ import"./Home.css"
 import Footer from "../../components/Constants/Footer";
 import Navbar from "../../components/Constants/Navbar"
 export default function Home() {
-    // const {menuData}=props
-    // const SampleData = [...menuData]
 
   return (
     <div className="Home_body">
