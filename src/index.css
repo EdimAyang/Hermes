@@ -1,0 +1,296 @@
+/* *{ */
+  /* font-family: "Edu AU VIC WA NT Hand", cursive; */
+  /* font-family: "Roboto", sans-serif; */
+  /* #3d8bff */
+  /* font-family: "League Spartan", sans-serif; */
+  /* margin: 0; */
+  /* padding: 0; */
+  /* box-sizing: border-box; */
+/* } */
+/*  */
+ /* box-shadow: 0 0 30px rgb(0, 0, 0, .2); */
+/* .favicon{ */
+  /* border-radius: 50px; */
+/* } */
+/*  */
+/* NavBar */
+
+/* footer */
+/* .footer{ */
+  /* width: 100%; */
+  /* height: 20vh; */
+  /* background-color: #FFC914; */
+  /* background-color: #8b0000; */
+  /* padding: 20px; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+/* } */
+/*  */
+/* .footer img{ */
+  /* border-radius: 50px; */
+  /* width: 90px; */
+/* } */
+/*  */
+/* .footer p{ */
+  /* margin: 15px; */
+/* } */
+/*  */
+/* .Work_Hours{ */
+  /* color: #ffff; */
+/* } */
+/*  */
+/* .social_media{ */
+  /* width: 19%; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /* margin: 5px; */
+/* } */
+/*  */
+/* .social_media a{ */
+  /* text-align: center; */
+  /* height:50px ; */
+   /* box-shadow: 0 0 30px rgb(0, 0, 0, .6);  */
+   /* text-decoration: none; */
+  /* width:22%; */
+  /* border-radius: 50px; */
+/* } */
+/*  */
+/*  */
+/*  */
+/* .fa-brands:hover{ */
+  /* color: #FFC914;  */
+/* } */
+/*  */
+/* icons */
+/*  */
+/* .fa-brands{ */
+  /* color: #ffff; */
+  /* transform: scale(1.7); */
+  /* padding-top: 13px; */
+/*    */
+/* } */
+/*  */
+/* @media screen and(max-width:500px) { */
+  /* .nav{ */
+    /* display: none; */
+  /* } */
+/* } */
+/*  */
+/* button */
+/*  */
+/* .Button a{ */
+  /* padding: 10px 20px 10px 20px; */
+  /* background-color: #ffff; */
+  /* border-radius: 10px; */
+  /* text-decoration: none; */
+  /* color: black; */
+/* } */
+/*  */
+/* search */
+/* .search_bar{ */
+  /* height: 100%; */
+  /* width:100% ; */
+  /* padding: 20px;  */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* position: relative; */
+  /* margin-top: 11%; */
+/* } */
+/*  */
+/* .fa-magnifying-glass{ */
+  /* position: absolute; */
+  /* right: 23em; */
+  /* transform: scale(1.2); */
+/* } */
+/*  */
+ /* input{ */
+  /* width: 50%; */
+  /* height: 100%; */
+  /* outline: none; */
+  /* border: none; */
+  /* border-radius: 50px; */
+  /* box-shadow: 0 0 30px rgb(0, 0, 0, .3); */
+  /* padding: 10px; */
+  /* margin: 10px; */
+  /* font-size: 18px; */
+  /* padding-left: 10px; */
+  /* position: relative; */
+/* } */
+/*  */
+/* advert */
+/* .Advert{ */
+  /* width: 90%; */
+  /* margin: 0 auto; */
+  /* height: 500px; */
+  /* border: 8px solid #FFC914; */
+  /* background-color: #8b0000; */
+  /* box-shadow: 0 0 30px rgb(0, 0, 0, .2);  */
+  /* border-radius: 50px; */
+  /* padding: 30px; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+/* } */
+/*  */
+/* .seperation{ */
+  /* width: 80%; */
+  /* height: 2px; */
+  /* background-color: #FFC914; */
+  /* margin:30px auto; */
+/* } */
+/*  */
+/* .Advert img{ */
+  /* transform: scaleX(0.7); */
+  /* height: 500px; */
+/* } */
+/* .Advert_texts{ */
+  /* width: 60%; */
+  /* height: 100%; */
+  /* padding: 10px; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* text-align: start; */
+  /* font-weight: 500; */
+  /* color: #fff; */
+  /* line-height: 1.3em; */
+/* } */
+/*  */
+/* .Advert_texts h2{ */
+  /* color: #FFC914; */
+  /* margin-top: 50px; */
+/*    */
+/* } */
+/*  */
+/* .Advert_texts a{ */
+  /* margin-top: 20px; */
+  /* text-decoration: none; */
+  /* padding: 10px; */
+  /* background-color: #fff; */
+  /* color:black; */
+  /* width: 50%; */
+  /* border-radius: 50px; */
+  /* letter-spacing: 2px; */
+  /* font-weight: 700; */
+  /* text-align: center; */
+/* } */
+/*  */
+/* .resturants{ */
+  /* width: 100%; */
+  /* height: 950px; */
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  /* grid-auto-rows: 430px auto; */
+  /* gap: 30px; */
+  /* padding: 20px; */
+  /* margin-top: 40px; */
+/* } */
+/*  */
+/* .resturant_card{ */
+  /* width: 100%; */
+  /* box-shadow: 0 0 30px rgb(0, 0, 0, .2);  */
+  /* border-radius: 20px; */
+/* } */
+/*  */
+/* .resturant_card img{ */
+  /* width: 100%; */
+  /* height: 250px; */
+  /* border-radius: 20px; */
+/* } */
+/*  */
+/* .resturant_info{ */
+  /* padding: 10px; */
+/* } */
+/*  */
+/* .resturant_info h3{ */
+  /* margin: 10px; */
+/* } */
+/*  */
+/* categories */
+/* .category{ */
+  /* width: 90%; */
+  /* margin: auto; */
+  /* height: 300px; */
+/* } */
+/* .category_head{ */
+  /* width: 100%; */
+  /* height: 30px; */
+  /* display: flex; */
+  /* justify-content:space-between ; */
+  /* padding: 5px; */
+  /* margin-bottom: 30px; */
+/* } */
+/* .category_wrapper{ */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* justify-content: space-around; */
+  /* align-items: center; */
+/* } */
+/* .category_card{ */
+  /* width: 23%; */
+  /* height: 250px; */
+  /* box-shadow: 0 0 30px rgb(0, 0, 0, .2); */
+  /* border-radius:10px ; */
+  /* background-image: url(./assets/ai-generated-8236803_640.png); */
+  /* background-position: center; */
+  /* background-size:cover ; */
+  /* display: flex; */
+  /* align-items: end; */
+/* } */
+/*  */
+/* .category_image img{ */
+  /* width: 150px; */
+/* } */
+/* .Discription{ */
+  /* width: 100%; */
+  /* height: 60px; */
+  /* margin-top: 5px; */
+  /* text-align: center; */
+  /* font-weight: 600; */
+  /* padding: 10px; */
+/* } */
+/* .Discription p{ */
+  /* height: 100%; */
+  /* padding-top: 10px; */
+  /* box-shadow: 0 0 30px rgb(0, 0, 0, .6); */
+  /* background-color: rgba(0, 0, 0, 0.700); */
+  /* border-radius: 30px; */
+  /* color: #fff; */
+/* } */
+/* .welcome_msg{ */
+  /* height: 100px; */
+  /* width: 20%; */
+  /* text-align: center; */
+  /* margin-top: 8%; */
+  /* padding: 10px; */
+/* } */
+/* .Posts{ */
+  /* width: 90%; */
+  /* height: 300px; */
+  /* border: 1px solid; */
+  /* margin: auto; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  /* padding: 20px; */
+/*     */
+/* } */
+/* .Posts_texts{ */
+  /* width: 40%; */
+  /* padding: 10px; */
+  /* height: 100%; */
+/*    */
+/* } */
+/* .Posts img{ */
+  /* transform:scale(0.5) ; */
+  /* border-radius: 50px; */
+/* } */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */

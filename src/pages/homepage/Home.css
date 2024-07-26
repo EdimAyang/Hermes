@@ -1,0 +1,620 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Home_body{
+    width: 100vw;
+    height: 100vh;
+}
+.welcome_section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    background-image: url(/src/assets/lamb-chops-8824495_640.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.welcome_msg{
+    width: 40vw;
+    margin-bottom:10% ;
+    margin-left: 5%;
+    height: 260px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgb(0, 0, 0, .2);
+    position: relative;
+    background-color: black;
+    color: #fff;
+    background-image: url(/src/assets/healthy-7213383_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.user_name{
+    padding: 10px;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    position: relative;
+    background-color: transparent;
+}
+.logo{
+    position: relative;
+}
+.avatar1{
+    background-image: url(/src/assets/ai-generated-8083323_640.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15%;
+    height: 100%;
+    border-radius: 50%;
+    transform: scale(1.8); 
+    position: absolute;
+    left: 75%;
+    top: 60px;
+}
+.Advert_card{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 30px auto;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgb(0, 0, 0, .2);
+    /* background-image: url(/src/assets/ai-generated-8236803_640.png); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    position: relative;
+    background-color: #030112;
+    /* background-color: #030112; */
+}
+.Adverts_texts{
+    width: 30%;
+    border: 1px solid;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Adverts_texts h3{
+    color: #fff;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.Adverts_texts p{
+    color: #fff;
+    line-height: 1.5em;
+    font-weight: 500;
+}
+.Advert_img{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-image: url(/src/assets/ai-generated-8673813_640.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -60px;
+    left: 53%;
+    border-radius: 20px;
+}
+.categories{
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #030112;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.category_texts{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.category_texts a{
+    text-decoration: none;
+    padding: 10px;
+    box-shadow: 0 0 30px rgb(0, 0, 0, .1);
+    border-radius: 20px;
+    color: #fff;
+    background-color: black;
+}
+.categories_cards{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2px;
+}
+.cards{
+    width: 23%;
+    height: 70%;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgb(0, 0, 0, .1);
+    background-color:#030112 ;
+}
+.pizza{
+    background-image: url(/src/assets/pizza-3203417_640.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.burgar{
+    background-image: url(/src/assets/burger-7419420_640.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.chicken{
+    background-image: url(/src/assets/fried-chicken-6550521_640.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fried_rice{
+    background-image: url(/src/assets/fried-rice-6297406_640.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.seperator{
+    width: 90%;
+    margin: auto;
+    height: 1px ;
+    border: 1px solid;
+}
+.popular{
+    width: 90%;
+    height: 1000px;
+    margin:30px auto;
+    padding: 10px;
+    background-color: #030112;
+    border-radius: 20px;
+    color: #fff;
+    padding: 30px;
+}
+.popular_text{
+    margin-bottom: 30px;
+}
+.popular_text1{
+    width: 100%;
+    text-align: end;
+    padding: 10px;
+    height: 100%;
+}
+.popular_text1 h3{
+    margin-top: 70px;
+}
+.popular1{
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 0 30px rgb(0, 0, 0, .0);
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content:end;
+    align-items: start;
+}
+.popular_img1{
+    width: 50%;
+    box-shadow: 0 0 30px rgb(0, 0, 0, .3);
+    height: 150%;
+    position: absolute;
+    top: 40%;
+    left: 3%;
+    border-radius: 20px;
+    z-index: 5;
+    background-image: url(/src/assets/ai-generated-8215780_640.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.popular2{
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 0 30px rgb(0, 0, 0, .0);
+    padding: 10px;
+    position: relative;
+    margin-top: 50px;
+}
+.popular_text2{
+    width: 100%;
+    margin:20px auto;
+    text-align: end;
+    padding: 10px;
+    height: 100%;
+}
+.popular_text2 h3{
+    margin-top: 50px;
+}
+.popular_img2{
+    width: 50%;
+    box-shadow: 0 0 30px rgb(0, 0, 0, .3);
+    height: 150%;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    border-radius:20px ;
+    z-index: 3;
+    background-image: url(/src/assets/food-8114889_640.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.popular3{
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 0 30px rgb(0, 0, 0, .0);
+    padding: 10px;
+    position: relative;
+    margin-top: 40px;
+}
+.popular_text3{
+    width: 100%;
+    margin: auto;
+    text-align: end;
+    padding: 10px;
+    height: 100%;
+    margin-top: 30px;
+}
+.popular_img3{
+    width: 50%;
+    box-shadow: 0 0 30px rgb(0, 0, 0, .3);
+    height: 150%;
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    border-radius: 20px;
+    background-image: url(/src/assets/salad-1095649_640.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.recent-orders{
+    width: 90%;
+    margin:20px auto;
+    height: 700px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 8px solid #030112;
+    border-radius: 20px;
+    position: relative;
+}
+.recent-orders_texts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.recent-orders_texts a{
+    text-decoration: none;
+    padding: 10px;
+    box-shadow: 0 0 30px rgb(0, 0, 0, .1);
+    border-radius: 20px;
+    color: #fff;
+    background-color: #030112;
+}
+.recent-orders-card{
+    width: 50%;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgb(0, 0, 0, .2);
+    margin-bottom: 45px;
+    background-image: url(/src/assets/salad-1095649_640.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.recent-orders-card_img{
+    width: 40%;
+    height: 70%;
+    position: absolute;
+    border: 1px solid;
+    left: 55%;
+    top: 15%;
+    border-radius: 20px;
+    background-color: #030112;
+}
+.buttom_nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.384);
+    position: fixed;
+    top: 94%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.buttom_nav a{
+    color: #030112;
+}
+@media screen and (max-width: 900px) {
+    .welcome_section{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    background-image: url(/src/assets/mom-7063095_640.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+    .welcome_msg{
+    width: 90vw;
+    margin:90px auto;
+    height: 168px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgb(0, 0, 0, .2);
+    position: relative;
+    background-color: #030112;
+    color: #fff;
+    }
+    .avatar1{
+        background-image: url(/src/assets/ai-generated-8083323_640.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 15%;
+        height: 100%;
+        border-radius: 50%;
+        transform: scale(1.7); 
+        position: absolute;
+        left: 82%;
+        top: 10px;
+    }
+    .Advert_card{
+        width: 90%;
+        height: 200px;
+        margin: 30px auto;
+        border-radius: 20px;
+        box-shadow: 0 0 30px rgb(0, 0, 0, .2);
+        /* background-image: url(/src/assets/ai-generated-8236803_640.png); 
+    */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .Adverts_texts{
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Adverts_texts h3{
+        color: #fff;
+        margin: 10px;
+        font-size: 16px;
+    }
+    .Adverts_texts p{
+        color: #fff;
+        line-height: 1em;
+    }
+    .categories{
+        width: 90%;
+        height: 200px;
+        margin:20px auto;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    .category_texts{
+        display: flex;
+        justify-content: space-between;
+    }
+    .category_texts a{
+        text-decoration: none;
+        padding: 10px;
+        box-shadow: 0 0 30px rgb(0, 0, 0, .1);
+        border-radius: 20px;
+        color: #fff;
+        background-color: #030112;
+    }
+    .categories_cards{
+        width: 100%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2px;
+    }
+    .cards{
+        width: 23%;
+        height: 50%;
+        border-radius: 20px;
+        box-shadow: 0 0 30px rgb(0, 0, 0, .1);
+    }
+    .seperator{
+        width: 90%;
+        margin: auto;
+        height: 1px ;
+        border: 1px solid;
+    }
+    .popular{
+        width: 90%;
+        height: 900px;
+        margin:30px auto;
+        padding: 10px;
+        background-color: #fff;
+    }
+    .popular_text{
+        margin-bottom: 30px;
+    }
+    .popular_text h2{
+        color: #030112;
+    }
+    .popular_text1{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+        height: 100%;
+    }
+    .popular_text1 h3{
+        margin-top: 0px;
+    }
+    .popular1{
+        width: 100%;
+        height: 200px;
+        box-shadow: 0 0 30px rgb(0, 0, 0, .1);
+        padding: 10px;
+        position: relative;
+        display: flex;
+        justify-content:center ;
+        align-items: start;
+        background-color: #030112;
+        border-radius: 20px;
+    }
+    .popular_img1{
+        width: 50%;
+        box-shadow: 0 0 30px rgb(0, 0, 0, .3);
+        height: 100%;
+        position: absolute;
+        top: 40%;
+        left: 3%;
+        border-radius: 20px;
+    }
+    .popular2{
+        width: 100%;
+        height: 200px;
+        box-shadow: 0 0 30px rgb(0, 0, 0, .1);
+        padding: 10px;
+        position: relative;
+        margin-top: 50px;
+        background-color: #030112;
+        border-radius: 20px;
+    }
+    .popular_text2{
+        width: 100%;
+        margin:20px auto;
+        text-align: center;
+        padding: 10px;
+        height: 100%;
+    }
+    .popular_text2 h3{
+        margin-top: 0px;
+    }
+    .popular_img2{
+        width: 50%;
+        box-shadow: 0 0 30px rgb(0, 0, 0, .3);
+        height: 100%;
+        position: absolute;
+        top: 40%;
+        left: 25%;
+        border-radius:20px ;
+    }
+    .popular3{
+        width: 100%;
+        height: 200px;
+        box-shadow: 0 0 30px rgb(0, 0, 0, .1);
+        padding: 10px;
+        position: relative;
+        margin-top: 40px;
+        background-color: #030112;
+        border-radius: 20px;
+    }
+    .popular_text3{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+        height: 100%;
+        margin-top: 30px;
+    }
+    .popular_text3 h3{
+        margin-top: 0px;
+    }
+    .popular_img3{
+        width: 50%;
+        box-shadow: 0 0 30px rgb(0, 0, 0, .3);
+        height: 100%;
+        position: absolute;
+        top: 50%;
+        left: 47%;
+        border-radius: 20px;
+    }
+    .recent-orders{
+        width: 90%;
+        margin:20px auto;
+        height: 600px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .recent-orders_texts{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .recent-orders_texts a{
+        text-decoration: none;
+        padding: 10px;
+        box-shadow: 0 0 30px rgb(0, 0, 0, .1);
+        border-radius: 20px;
+        color: #fff;
+        background-color: black;
+    }
+    .recent-orders-card{
+        width: 100%;
+        height: 170px;
+        border-radius: 20px;
+        box-shadow: 0 0 30px rgb(0, 0, 0, .2);
+        margin-bottom: 45px;
+    }
+    .recent-orders-card_img{
+        display: none;
+    }
+    .buttom_nav{
+        width: 100%;
+        height: 50px;
+        background-color: rgba(0, 0, 0, 0.384);
+        position: fixed;
+        top: 94%;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        align-items: center;
+    }
+    .buttom_nav a{
+        color: #030112;
+    }
+}
