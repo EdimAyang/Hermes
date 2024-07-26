@@ -1,22 +1,10 @@
 import Navbar from "../../components/Constants/Navbar";
 import Footer from "../../components/Constants/Footer";
 import { useState } from "react";
-// import Cart from "../../pages/cart/Cart"
 import "../menu/Menu.css"
 
-// export  function data(items) {
-  // console.log(items)
-  // return (
-    // <div>
-        {/* <Cart Orders={items}/> */}
-    {/* </div> */}
-  // )
-// }
-
-
-
 function Menu(props) {
-  const {menuData}=props;
+  const { menuData } =props;
   const sampleData =[...menuData];
   const [val , setVal] = useState("");
   const [items , setItems] = useState([ ])
