@@ -51,7 +51,7 @@ const menuSampleData =[
 	{
 		"id":6,
 		"title":"Salads", 
-		"image":"assets/burger-8869971_640.jpg",
+		"image":"/assets/burger-8869971_640.jpg",
 		"rating":"3",
 		"price":"300$",
 		"nutrition":"vitamin A and protain and vitamin C"
@@ -59,7 +59,7 @@ const menuSampleData =[
 	{
 		"id":7,
 		"title":"Chicken and yamchips", 
-		"image":"assets/food-8114889_640.jpg",
+		"image":"/assets/food-8114889_640.jpg",
 		"rating":"8",
 		"price":"500$",
 		"nutrition":["protain", "carbohydrate"]
@@ -67,7 +67,7 @@ const menuSampleData =[
 	{
 		"id":8,
 		"title":"barbeque beef", 
-		"image":"assets/fried-chicken-6550521_640.jpg",
+		"image":"/assets/fried-chicken-6550521_640.jpg",
 		"rating":"4",
 		"price":"90$",
 		"nutrition":["Protain"]
