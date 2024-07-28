@@ -18,13 +18,6 @@ function Menu(props) {
     setVal(e.target.value)
   };
 
-  // const orderBtn = function(){
-    // sampleData.filter((items, index )=>{
-      // console.log("item",items);
-      //  return items.id == index ? items : null
-    // })
-  // };
-  // console.log(orderBtn);
 
   const orderBtn = (m)=>{
     
