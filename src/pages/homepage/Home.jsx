@@ -2,8 +2,9 @@
 import"./Home.css"
 import Footer from "../../components/Constants/Footer";
 import Navbar from "../../components/Constants/Navbar"
-export default function Home() {
-
+import { Link } from "react-router-dom";
+export default function Home({menuData}) {
+ const Data = [...menuData]
   return (
     <div className="Home_body">
         <Navbar />
@@ -26,16 +27,16 @@ export default function Home() {
         <section className="categories">
             <div className="category_texts">
                 <h2>Categories</h2>
-                <a href="#">view more</a>
+                <Link to="/menu">view more</Link>
             </div>
-
-            <div className="categories_cards">
-                <div className="cards pizza">
-
+            <div className="category_list">
+            {Data.map(item =>{
+              return(
+                <div className="cards" key={item.id}>
+                    <img src={item.image} alt="" />
                 </div>
-                <div className="cards burgar"></div>
-                <div className="cards chicken"></div>
-                <div className="cards fried_rice"></div>
+                )
+            })}
             </div>
         </section>
 

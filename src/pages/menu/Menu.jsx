@@ -1,30 +1,17 @@
 import Navbar from "../../components/Constants/Navbar";
+import { Link } from "react-router-dom";
 import Footer from "../../components/Constants/Footer";
 import { useState } from "react";
 import "../menu/Menu.css"
 
-function Menu(props) {
-  const { menuData } =props;
+function Menu({menuData}) {
   const sampleData =[...menuData];
   const [val , setVal] = useState("");
-  const [items , setItems] = useState([ ])
 
-  const buttonClick = function(){
-    
-   setVal("")
-  };
 
   const changeValue = function(e){
     setVal(e.target.value)
   };
-
-
-  const orderBtn = (m)=>{
-    
-  setItems(m)
-
-  return items
-  }
 
   return (
     <div className="Menu_container">
@@ -34,7 +21,6 @@ function Menu(props) {
         </div>
         <section className="menu_search">
           <input type="text" placeholder="Search..." value={val} onChange={changeValue} />
-          <button className="btn_search" onClick={buttonClick}>search</button>
         </section>
         <section className="Menu_Lists active">
         {
@@ -46,29 +32,10 @@ function Menu(props) {
           <div className="menu_img">
           <img src={m.image} alt="food images"/>
           </div>
-            <button className="btn" onClick={()=>orderBtn(m)}>
-              ORDER
-            </button>
+           <Link to={`/cart/${m.id}`} ><button className="btn_menu">ORDER</button></Link>
           </div>
         ))}
         </section>
-        <section className="OrderContainer">
-        <button className="btn2">Back</button>
-        <div className="order_img">
-            <h2>Your Order</h2>
-            <img src={items.image} alt="orderimg" />
-        </div>
-        <div className="order_discription">
-            <h3>Order Details</h3>
-            <ul>
-              <li>Name: {items.title}</li>
-              <li>Price: {items.price}</li>
-              <li>Rating: {items.rating}</li>
-              <li>Nutrition: {items.nutrition}</li>
-            </ul>
-            <button className="btn1">Proceed</button>
-    </div>
-    </section>
       <Footer />
     </div>
   )

@@ -10,10 +10,10 @@ export default function Navbar() {
   }
   return (
     <header>
-      <Link to="/" className="Link_h1"><h1>hermes</h1></Link>
+      <Link to="/homepage" className="Link_h1"><h1>hermes</h1></Link>
       <nav ref={navRef} className='navigations'>
         <Link to="/menu">Menu</Link>
-        <Link to="/cart">Cart</Link>
+        <Link to="/menu">Profile</Link>
         <Link to="/contact">Contact</Link>
 
         <button className="nav-btn nav-close" onClick={showNavBar}>

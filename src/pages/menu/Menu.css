@@ -41,7 +41,7 @@
     display: flex;
     flex-direction: column;
 }
-.btn{
+.btn_menu{
     width: 100%;
     height: 50px;
     border: 1px solid;
@@ -100,7 +100,7 @@ input{
 .OrderContainer{
     width: 90%;
     margin: 20px auto;
-    height: 600px;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,6 +155,13 @@ li{
     padding: 10px;
     border: none;
     border-radius: 20px;
+    background-color:#030112;
+    color: #fff;
+    font-weight: 600;
+}
+.btn2:hover{
+    transition: 1s;
+    transform: scale(0.9);
     
 }
 
@@ -193,7 +200,7 @@ li{
         
     }
     .btn{
-        width: 80%;
+        width: 100%;
         height: 50px;
         border: 1px solid;
         border-radius: 20px;
@@ -206,7 +213,7 @@ li{
     }
     img{
         width: 100%;
-        height: 150px;
+        height: 190px;
         box-shadow: 0 0 30px rgb(0, 0, 0, .2);
         border-radius: 20px;
         margin-bottom: 10px;
@@ -231,31 +238,31 @@ li{
         color: #fff;
         margin-right: 20px;
     }
-    .btn_search{
-        padding: 13px;
-        border-radius: 20px;
-        border: none;
-        color: #030112;
-        font-weight: 600;
-        background-color: #fff;
-        box-shadow: 0 0 30px rgb(0, 0, 0, .1);
-    }
+    /* .btn_search{ */
+        /* padding: 13px; */
+        /* border-radius: 20px; */
+        /* border: none; */
+        /* color: #030112; */
+        /* font-weight: 600; */
+        /* background-color: #fff; */
+        /* box-shadow: 0 0 30px rgb(0, 0, 0, .1); */
+    /* } */
     .OrderContainer{
         width: 90%;
-        margin: 20px auto;
-        height: 580px;
+        margin:  auto;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
         padding: 15px;
         border-radius: 20px;
         box-shadow: 0 0 30px rgb(0, 0, 0, .1);
         position: relative;
     }
     .order_img{
-        width: 50%;
+        width: 90%;
         height: 50%;
     }
     .order_img  img{
@@ -264,7 +271,7 @@ li{
     }
     .order_discription{
         width: 90%;
-        height: 70%;
+        height: 50%;
         justify-content: center;
         align-items: center;
         justify-content: space-around;
@@ -299,6 +306,7 @@ li{
         padding: 10px;
         border: none;
         border-radius: 20px;
-        
+        background-color:#030112;
+        color: #fff;
     }
 }
