@@ -3,8 +3,14 @@ import"./Home.css"
 import Footer from "../../components/Constants/Footer";
 import Navbar from "../../components/Constants/Navbar"
 import { Link } from "react-router-dom";
+import { useState } from "react";
 export default function Home({menuData}) {
  const Data = [...menuData]
+ const [imagePerPage]=useState(4);
+ const [currentPage]=useState(2);
+ const lastImageIndex = currentPage * imagePerPage ;
+ const firstImageIndex = lastImageIndex - imagePerPage;
+ const visibleImages = Data.slice(firstImageIndex, lastImageIndex)
   return (
     <div className="Home_body">
         <Navbar />
@@ -29,12 +35,12 @@ export default function Home({menuData}) {
                 <h2>Categories</h2>
                 <Link to="/menu">view more</Link>
             </div>
-            <div className="category_list">
-            {Data.map(item =>{
+            <div  className="category_list" >
+            {visibleImages.map(item =>{
               return(
-                <div className="cards" key={item.id}>
-                    <img src={item.image} alt="" />
-                </div>
+                <>
+                    <img src={item.image}  alt="images"/>
+                </>
                 )
             })}
             </div>

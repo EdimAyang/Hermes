@@ -4,6 +4,7 @@ import Contact from "../src/pages/contact/Contact";
 import Cart from "../src/pages/cart/Cart";
 import Menu from "../src/pages/menu/Menu";
 import Login from "../src/pages/login/Login";
+import Pagination from "../src/pages/pagination/Pagination";
 import './App.css';
 function App() {
 const menuSampleData =[
@@ -84,6 +85,7 @@ const menuSampleData =[
 					<Route path="/menu"  element={<Menu menuData={menuSampleData} />} />
 					<Route path="/cart/:id"  element={<Cart menuData={menuSampleData}/>} />
 					<Route path="/contact"  element={<Contact />} />
+					<Route path="pagination"  element={<Pagination menuData={menuSampleData}/>} />
 				</Routes>
 		</Router>
     </div>

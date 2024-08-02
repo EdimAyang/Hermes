@@ -11,7 +11,7 @@ export default function Cart(props) {
               {
                Data.filter((order) => order.id === +params.id).map((ord => {
                 return(
-                    <section className="OrderContainer">
+                    <section className="OrderContainer" key={ord.id}>
                       <Link to="/menu"><button className="btn2">Back</button></Link>
                       <div className="order_img">
                         <h2>Your Order</h2>
@@ -19,7 +19,7 @@ export default function Cart(props) {
                       </div>
                         <div className="order_discription">
                             <h3> Details</h3>
-                            <ul key={ord.id}>
+                            <ul>
                               <li>Name: {ord.title}</li>
                               <li>Price: {ord.price}</li>
                               <li>Rating: {ord.rating}</li>
