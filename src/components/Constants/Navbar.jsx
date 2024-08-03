@@ -1,6 +1,6 @@
 import { FaBars , FaTimes } from "react-icons/fa"
 import { useRef } from "react";
-import{Link} from "react-router-dom";
+import{HashLink as Link} from "react-router-hash-link"
 import "../Constants/Navbar.css";
 
 export default function Navbar() {
@@ -10,11 +10,11 @@ export default function Navbar() {
   }
   return (
     <header>
-      <Link to="/homepage" className="Link_h1"><h1>hermes</h1></Link>
+      <Link to="#home" className="Link_h1"><h1>hermes</h1></Link>
       <nav ref={navRef} className='navigations'>
-        <Link to="/menu">Menu</Link>
-        <Link to="/menu">Profile</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="#menu" onClick={showNavBar} smooth>Menu</Link>
+        <Link to="#home" onClick={showNavBar} smooth>Profile</Link>
+        <Link to="#contact" onClick={showNavBar} smooth>Contact</Link>
 
         <button className="nav-btn nav-close" onClick={showNavBar}>
           <FaTimes />

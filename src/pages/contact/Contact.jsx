@@ -1,8 +1,7 @@
 import "../contact/Contact.css";
-import Navbar from "../../components/Constants/Navbar";
-import Footer from "../../components/Constants/Footer";
-import { useState } from "react";
-
+import { useState , useEffect} from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Contact() {
   const [details, setDetails] = useState({
@@ -12,7 +11,9 @@ export default function Contact() {
     number: "",
     textArea: "",
   });
-
+  useEffect(()=>{
+    AOS.init({duration: 1000})
+ },[])
 const handleChange= (e)=>{
   const name = e.target.name;
   const value = e.target.value;
@@ -26,15 +27,15 @@ const handleSubmit=(e)=>{
   console.log(details)
 };
   return (
-    <form onSubmit={handleSubmit}>
-      <Navbar />
+    <>
+    <form onSubmit={handleSubmit} id="contact" data-aos="fade-up">
           <section className="heading">
               <h2>CONTACT US</h2>
           </section>
 
           <section className="info_container">
               <h3>CONTACT US</h3>
-              <div className=" forms_wrapper">
+              <div className=" forms_wrapper" data-aos="fade-up">
                 <div className="form">
 
                 <div className="names_wrapper">
@@ -59,14 +60,16 @@ const handleSubmit=(e)=>{
                   <button type="submit" className="submit_form">Send</button>
                 </div>
 
-                <div className="info">
+                <div className="info" data-aos="fade-up">
                     <div className="info_card">
+                    <i className="fa-solid fa-envelope"></i>
                       <div>
                         <h4>Email</h4>
                         <p>jackson123@gmail.com</p>
                       </div>
                     </div>
                     <div className="info_card">
+                    <i className="fa-solid fa-phone"></i>
                      <div>
                         <h4>Call</h4>
                         <p>09134794977</p>
@@ -75,7 +78,7 @@ const handleSubmit=(e)=>{
                 </div>
               </div>
           </section>
-      <Footer />
     </form>
+    </>
   )
 }
