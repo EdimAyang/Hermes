@@ -1,10 +1,16 @@
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./cart.css"
 export default function Cart(props) {
   const {menuData}=props
   const Data = [... menuData]
   const params = useParams()
+  useEffect(()=>{
+    AOS.init({duration: 1000})
+ },[])
   //getting the filtered order from database using matching id
   return (
     <div>
@@ -12,12 +18,12 @@ export default function Cart(props) {
                Data.filter((order) => order.id === +params.id).map((ord => {
                 return(
                     <section className="OrderContainer" key={ord.id}>
-                      <Link to="/menu"><button className="btn2">Back</button></Link>
-                      <div className="order_img">
+                      <Link to="/homepage"><button className="btn2">Back</button></Link>
+                      <div className="order_img" data-aos="fade-up">
                         <h2>Your Order</h2>
                         <img src={ord.image} alt="orderimg" />
                       </div>
-                        <div className="order_discription">
+                        <div className="order_discription" data-aos="fade-up">
                             <h3> Details</h3>
                             <ul>
                               <li>Name: {ord.title}</li>
@@ -25,7 +31,7 @@ export default function Cart(props) {
                               <li>Rating: {ord.rating}</li>
                               <li>Nutrition: {ord.nutrition}</li>
                             </ul>
-                            <Link to="/menu"><button className="btn1">Proceed</button></Link>
+                            <Link to="/homepage"><button className="btn1">Proceed</button></Link>
                         </div>
                     </section>
                 )
