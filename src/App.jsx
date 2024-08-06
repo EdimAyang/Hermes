@@ -1,7 +1,9 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { useState } from "react";
 import Home from "../src/pages/homepage/Home";
 import Cart from "../src/pages/cart/Cart";
 import Login from "../src/pages/login/Login";
+import UserContext from "../src/components/contexts/UserContext";
 import './App.css';
 function App() {
 const menuSampleData =[
@@ -136,16 +138,23 @@ const menuSampleData =[
 	},
 
 ];
+const user ={
+    name: "Emmanuel",
+    password: "1234",
+};
+const [name, setName] = useState("");
+const [password, setPassword] = useState("");
 
   return(
 	<Router>
     <div className="App">
-					<Routes>
-						<Route path="/"  element={<Login/>} />
-						<Route path="/homepage"  element={<Home menuData=	{menuSampleData}/>} />
-						<Route path="/cart/:id"  element={<Cart menuData=	{menuSampleData}/>} />
-						{/* <Route path="pagination"  element={<Pagination 	menuData={menuSampleData}/>} /> */}
-					</Routes>
+		<UserContext.Provider value={{name,setName,password,user,setPassword,menuSampleData}} >
+			<Routes>
+				<Route path="/" element={<Login/>} />
+				<Route path="/homepage" element={<Home />} />
+				<Route path="/cart/:id" element={<Cart />} />
+			</Routes>
+		</UserContext.Provider>
     </div>
 	</Router>
   )

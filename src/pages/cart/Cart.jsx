@@ -1,12 +1,13 @@
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
+import { useContext, useEffect } from "react";
+import UserContext from "../../components/contexts/UserContext";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./cart.css"
-export default function Cart(props) {
-  const {menuData}=props
-  const Data = [... menuData]
+export default function Cart() {
+  const{menuSampleData}=useContext(UserContext)
+  const Data = [... menuSampleData]
   const params = useParams()
   useEffect(()=>{
     AOS.init({duration: 1000})
