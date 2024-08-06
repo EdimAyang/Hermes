@@ -13,7 +13,6 @@ export default function Navbar() {
       <Link to="#home" className="Link_h1"><h1>hermes</h1></Link>
       <nav ref={navRef} className='navigations'>
         <Link to="#menu" onClick={showNavBar} smooth>Menu</Link>
-        <Link to="#home" onClick={showNavBar} smooth>Profile</Link>
         <Link to="#contact" onClick={showNavBar} smooth>Contact</Link>
 
         <button className="nav-btn nav-close" onClick={showNavBar}>
